@@ -24,3 +24,7 @@ if [[ $(command -v brew) ]]; then
     export PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH"
     eval "$(brew shellenv)"
 fi
+
+if [[ $(command -v zoxide) ]]; then
+    eval "$(zoxide init bash)"
+fi
