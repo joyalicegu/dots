@@ -13,3 +13,6 @@ alias sup="rclone -P sync ~/sync/ drive:sync/ --no-update-modtime --copy-links"
 
 # personal
 alias reminisce='jrnl -today-in-history --format markdown | glow -p -'
+
+# try z
+source /usr/local/etc/profile.d/z.sh
