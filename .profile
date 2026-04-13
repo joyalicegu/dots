@@ -18,6 +18,7 @@ export CLICOLOR=1
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 if [[ $(command -v brew) ]]; then
     export PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH"
