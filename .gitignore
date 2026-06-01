@@ -7,6 +7,7 @@
 !.config/mpv/script-opts/playlistmanager.conf
 !.config/mpv/scripts/
 !.config/ranger/rc.conf
+!.gitconfig
 !.gitignore
 !.profile
 !.tmux.conf

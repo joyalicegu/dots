@@ -1,0 +1,19 @@
+[user]
+	name = Joy Gu
+	email = joy.alice.gu@gmail.com
+[push]
+	default = simple
+	default = tracking
+[branch]
+	autosetuprebase = always
+[core]
+	editor = vim
+[color]
+	ui = auto
+[merge]
+	conflictStyle = diff3
+	tool = vimdiff
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
