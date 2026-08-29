@@ -1,0 +1,15 @@
+# appearance
+font-family = "Iosevka"
+font-style = "Semibold"
+font-style-bold = "Extrabold"
+font-size = 14
+theme = "Tomorrow Night"
+
+# shell and shell integration
+command = /opt/homebrew/bin/bash
+shell-integration-features = ssh-env,ssh-terminfo,no-cursor
+
+# move tab left
+keybind = cmd+shift+left=move_tab:-1
+# move tab right
+keybind = cmd+shift+right=move_tab:1
